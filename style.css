@@ -1,7 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #f8f8f8;
+    background-image: url('beef.jpg');
+    background-size: cover;
+    background-position:center;
+    backgroung-repeat: no-repeat;
+    
+    
 }
 
 header {
