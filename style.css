@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-position:center;
     backgroung-repeat: no-repeat;
+    background-attachment: fixed;
     
     
 }
