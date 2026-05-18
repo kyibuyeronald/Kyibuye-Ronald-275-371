@@ -20,7 +20,7 @@
             <h3>Ribeye Steak</h3>
             <p>Premium tender cut</p>
             <button onclick="order('Ribeye Steak')">Order</button>
-        </div>
+        </div>                    
 
         <div class="product">
             <h3>Minced Beef</h3>
@@ -35,6 +35,22 @@
         </div>
 
     </section>
+   <section class="order-form">
+        <h2>Place Your Order</h2>
+<form>
+   <input type="text"placeholder="Enter your name"required>
+   <input type="tel"placeholder="phone number"required>
+   <select required>
+<option value="">select beef part</option>
+<option>Ribeye steak</option>
+<option>Oxtail</option>
+<option>Liver</option>
+</select>
+
+<input type="number"placeholder="Quantity in KG"required>
+<button type="submit">Order Now</button>
+</form>
+</section>
 
     <script src="script.js"></script>
 </body>
